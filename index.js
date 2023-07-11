@@ -57,7 +57,7 @@ app.get("/save/:search", (req, res) => {
       if (d?.length === 0) {
         res.send("[*] no match found!");
       } else {
-        res.send("[x] something went wrong.");
+        res.send(d);
       }
     })
     .catch((e) => {

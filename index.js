@@ -67,7 +67,7 @@ app.get("/save/:search", (req, res) => {
 
 app.get("/", (req, res) => {
   res.send(
-    "***********\n\n[*] /save or /code :: Show saved data\n[*] /save/key :: Found the key in database.\n[*] /save/data/{title}/{data} :: Save the title and data to database.\n\n***********"
+    "***********\n\n[*] /save or /code :: Show saved data\n[*] /save/key :: Found the key in database.\n[*] /save/data/{title}/{data} :: Save the title and data to database.\n[*] Alt+F7 :: Clears the CMD history.\n\n***********"
   );
 });
 
